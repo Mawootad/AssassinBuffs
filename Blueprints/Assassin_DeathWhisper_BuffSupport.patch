@@ -1,0 +1,48 @@
+{
+  "Components": [
+    {
+      "PatchType": "Insert",
+      "NewElement": {
+        "$type": "ce35a5f769c481c2baf23af65f3d4c6f, DamagePercentMultiplierModifierInitiator",
+        "name": "$DamagePercentMultiplierModifierInitiator$7a3d5b65-29e8-4434-90c8-60c46d36ffa3",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "PercentDamageMultiplier": {
+          "ValueType": "Simple",
+          "Value": 25,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": true
+        },
+        "ModifierDescriptor": "None",
+        "ModifyEvenDirectDamage": false,
+        "ModifyEvenDamageOverTime": false
+      },
+      "InsertAfterTarget": "$WarhammerWeaponHitTriggerInitiator$0f30fa9e-bac3-444c-bdbf-1bb0ce9e828e"
+    },
+    {
+      "PatchType": "RemoveFromEnd",
+      "Target": "$WarhammerWeaponStatsModifierInitiator$8f8457de-2816-46ef-af71-dc1f61486695"
+    },
+    {
+      "PatchType": "RemoveFromEnd",
+      "Target": "$WarhammerDamageModifierInitiator$4d1f1398-adc1-4241-b525-5d93ca058bb6"
+    }
+  ]
+}
