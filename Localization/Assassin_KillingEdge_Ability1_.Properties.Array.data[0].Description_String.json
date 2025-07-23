@@ -1,0 +1,227 @@
+{
+  "source": "enGB",
+  "key": "e0d16aa3-4835-4203-811d-18e0abfb8b0f",
+  "ownerGuid": "1e3d85c9178497e429ca7a9ce4cbcd39",
+  "languages": [
+    {
+      "locale": "enGB",
+      "text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+      "modification_date": "2024-06-05T14:32:02.9549802Z",
+      "translated_from": "ruRU",
+      "translation_date": "2023-10-18T13:13:31.1834698+00:00",
+      "original_text": "<u>({g|Encyclopedia:Lethality}летальность{/g} / 10)</u>",
+      "traits": [
+        {
+          "trait": "CheckMe",
+          "trait_date": "2023-10-13T21:50:06.2063607Z",
+          "locale_text": "({g|Encyclopedia:Lethality}lethality{/g} / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        },
+        {
+          "trait": "Translated",
+          "trait_date": "2023-10-18T13:13:41.370607Z",
+          "locale_text": "({g|Encyclopedia:Lethality}lethality{/g} / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        },
+        {
+          "trait": "Edited",
+          "trait_date": "2023-10-18T13:13:41.3706071Z",
+          "locale_text": "({g|Encyclopedia:Lethality}lethality{/g} / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        },
+        {
+          "trait": "Turkish",
+          "trait_date": "2024-11-21T08:24:30.0700515Z",
+          "locale_text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+          "speaker": null,
+          "speaker_gender": null
+        }
+      ]
+    },
+    {
+      "locale": "ruRU",
+      "text": "<u>({g|Encyclopedia:Lethality}летальность{/g} / 10)</u>",
+      "modification_date": "2024-06-05T14:32:02.9471152Z",
+      "translated_from": "enGB",
+      "translation_date": "2023-10-18T13:14:25.9160368+00:00",
+      "original_text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+      "traits": [
+        {
+          "trait": "CheckMe",
+          "trait_date": "2023-10-13T21:50:06.2763577Z",
+          "locale_text": "(число уровней летальности / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        },
+        {
+          "trait": "Translated",
+          "trait_date": "2023-10-18T13:14:34.4446844Z",
+          "locale_text": "(число уровней летальности / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        }
+      ]
+    },
+    {
+      "locale": "zhCN",
+      "text": "<u>（{g|Encyclopedia:Lethality}致命{/g}/5）</u>",
+      "modification_date": "2024-06-13T10:34:23.2596158Z",
+      "translated_from": "enGB",
+      "translation_date": "2023-10-18T13:35:50.8267056+00:00",
+      "original_text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+      "traits": [
+        {
+          "trait": "CheckMe",
+          "trait_date": "2023-10-13T21:50:06.2903574Z",
+          "locale_text": "（致命/7）",
+          "speaker": null,
+          "speaker_gender": null
+        },
+        {
+          "trait": "Translated",
+          "trait_date": "2023-10-18T13:36:00.1270308Z",
+          "locale_text": "（致命/7）",
+          "speaker": null,
+          "speaker_gender": null
+        }
+      ]
+    },
+    {
+      "locale": "esES",
+      "text": "<u>({g|Encyclopedia:Lethality}Letalidad{/g} / 10)</u>",
+      "modification_date": "2024-11-07T15:49:54.225407Z",
+      "translated_from": "enGB",
+      "translation_date": "2023-10-18T13:36:09.9699611+00:00",
+      "original_text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+      "traits": [
+        {
+          "trait": "CheckMe",
+          "trait_date": "2023-10-13T21:50:06.3053583Z",
+          "locale_text": "(letalidad / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        },
+        {
+          "trait": "Translated",
+          "trait_date": "2023-10-18T13:36:17.9243426Z",
+          "locale_text": "(letalidad / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        }
+      ]
+    },
+    {
+      "locale": "deDE",
+      "text": "<u>({g|Encyclopedia:Lethality}Letalität{/g} / 10)</u>",
+      "modification_date": "2024-11-26T12:41:23.9169583Z",
+      "translated_from": "enGB",
+      "translation_date": "2024-11-26T12:41:23.9169586+00:00",
+      "original_text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+      "traits": [
+        {
+          "trait": "CheckMe",
+          "trait_date": "2023-10-13T21:50:06.3173569Z",
+          "locale_text": "(Lethalität / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        },
+        {
+          "trait": "Translated",
+          "trait_date": "2023-10-18T13:14:50.7260043Z",
+          "locale_text": "(Lethalität / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        }
+      ]
+    },
+    {
+      "locale": "frFR",
+      "text": "<u>({g|Encyclopedia:Lethality}létalité{/g} / 10)</u>",
+      "modification_date": "2024-11-26T13:42:12.7262767Z",
+      "translated_from": "enGB",
+      "translation_date": "2024-11-26T07:18:40.7327143+00:00",
+      "original_text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+      "traits": [
+        {
+          "trait": "CheckMe",
+          "trait_date": "2023-10-13T21:50:06.326357Z",
+          "locale_text": "(létalité / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        },
+        {
+          "trait": "Translated",
+          "trait_date": "2023-10-18T13:15:14.1682254Z",
+          "locale_text": "(létalité / 7)",
+          "speaker": null,
+          "speaker_gender": null
+        }
+      ]
+    },
+    {
+      "locale": "jaJP",
+      "text": "<u>({g|Encyclopedia:Lethality}致死率{/g} / 10)</u>",
+      "modification_date": "2025-02-19T11:30:50.9501018Z",
+      "translated_from": "enGB",
+      "translation_date": "2025-02-19T11:30:50.950102+00:00",
+      "original_text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+      "traits": [
+        {
+          "trait": "CheckMe",
+          "trait_date": "2023-10-13T21:50:06.3353574Z",
+          "locale_text": "（致死率/7）",
+          "speaker": null,
+          "speaker_gender": null
+        },
+        {
+          "trait": "Translated",
+          "trait_date": "2025-02-19T11:30:50.9501025Z",
+          "locale_text": "<u>({g|Encyclopedia:Lethality}致死率{/g} / 10)</u>",
+          "speaker": null,
+          "speaker_gender": null
+        }
+      ]
+    },
+    {
+      "locale": "dev",
+      "text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+      "modification_date": "2024-05-21T09:13:16.6151837Z",
+      "traits": [
+        {
+          "trait": "CheckMe",
+          "trait_date": "2024-05-21T09:13:16.6151837Z",
+          "locale_text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>",
+          "speaker": null,
+          "speaker_gender": null
+        }
+      ]
+    },
+    {
+      "locale": "trTR",
+      "text": "<u>({g|Encyclopedia:Lethality}öldürücülük{/g} / 10)</u>",
+      "modification_date": "2024-12-02T15:10:27.377387Z",
+      "translated_from": "enGB",
+      "translation_date": "2024-12-02T15:10:27.3773872+00:00",
+      "original_text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>"
+    }
+  ],
+  "string_traits": [
+    {
+      "trait": "Formula",
+      "trait_date": "2024-10-10T14:10:34.1229055Z",
+      "locale_text": "",
+      "speaker": null,
+      "speaker_gender": null
+    },
+    {
+      "trait": "левшеяп",
+      "trait_date": "2025-01-17T14:09:31.4765614Z",
+      "locale_text": "",
+      "speaker": null,
+      "speaker_gender": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "Components": [
+    {
+      "PatchType": "Relocate",
+      "Target": "$AbilityCasterMainWeaponHasAmmo$ff00d40f-2b58-424c-9aa9-c93f93060717",
+      "InsertAfterTarget": null
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$PropertyCalculatorComponent$91b1e027-b1b3-40f7-8869-1bb440947140",
+      "InsertAfterTarget": "$AbilityCasterMainWeaponHasAmmo$ff00d40f-2b58-424c-9aa9-c93f93060717"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$UIPropertiesComponent$d04e4f19-f147-4661-9cd4-bb571b87f8b2",
+      "InsertAfterTarget": "$PropertyCalculatorComponent$91b1e027-b1b3-40f7-8869-1bb440947140"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$PropertyCalculatorComponent$44e0e436-6495-49c5-996a-5ba3caf74844",
+      "InsertAfterTarget": "$UIPropertiesComponent$d04e4f19-f147-4661-9cd4-bb571b87f8b2"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$AbilityExecuteActionOnCast$c99db8bb-d556-4554-bcff-2f26f6899bc4",
+      "InsertAfterTarget": "$PropertyCalculatorComponent$44e0e436-6495-49c5-996a-5ba3caf74844"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$AbilityEffectRunAction$acbcdaae-f8a6-4b0e-9a8a-8479c0de1b86",
+      "InsertAfterTarget": "$AbilityExecuteActionOnCast$c99db8bb-d556-4554-bcff-2f26f6899bc4"
+    }
+  ]
+}

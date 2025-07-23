@@ -1,0 +1,57 @@
+{
+  "Components": [
+    {
+      "PatchType": "Relocate",
+      "Target": "$AddFactContextActions$502df961-c6b8-419d-abe7-8bd61c5a726b",
+      "InsertAfterTarget": null
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$AddFacts$69e670fe-34c6-4cb9-b52a-3bfcef6daf34",
+      "InsertAfterTarget": "$AddFactContextActions$502df961-c6b8-419d-abe7-8bd61c5a726b"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$CareerPathUIMetaData$8912617a-ad68-430e-9ecd-6425d282a6d0",
+      "InsertAfterTarget": "$AddFacts$69e670fe-34c6-4cb9-b52a-3bfcef6daf34"
+    },
+    {
+      "PatchType": "PatchElement",
+      "Target": "$CareerPathUIMetaData$8912617a-ad68-430e-9ecd-6425d282a6d0",
+      "ElementPatch": {
+        "m_KeystoneFeatures": [
+          {
+            "PatchType": "Insert",
+            "NewElement": "!bp_00bc7758ea4d4a99bb7cd5742fb5b294",
+            "InsertAfterTarget": "!bp_74a1e39f3d0c4cab828d49d4acd54851"
+          }
+        ]
+      }
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$AddFeaturesToLevelUp$9199829a-0164-41c1-95a6-828f7344ef1f",
+      "InsertAfterTarget": "$CareerPathUIMetaData$8912617a-ad68-430e-9ecd-6425d282a6d0"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$CareerPathUILayout$8ed9841f-9beb-48c1-9b40-2c0e41961ece",
+      "InsertAfterTarget": "$AddFeaturesToLevelUp$9199829a-0164-41c1-95a6-828f7344ef1f"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$AddFeaturesToLevelUp$8bc9a9d8-4c51-43a7-9a92-7c198f620a98",
+      "InsertAfterTarget": "$CareerPathUILayout$8ed9841f-9beb-48c1-9b40-2c0e41961ece"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$AddFeaturesToLevelUp$df651b09-8379-4ac7-bf3f-202a0cfdbf3b",
+      "InsertAfterTarget": "$AddFeaturesToLevelUp$8bc9a9d8-4c51-43a7-9a92-7c198f620a98"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$AddFeaturesToLevelUp$e106b53a-3206-4077-abde-885b17eea6f6",
+      "InsertAfterTarget": "$AddFeaturesToLevelUp$df651b09-8379-4ac7-bf3f-202a0cfdbf3b"
+    }
+  ]
+}

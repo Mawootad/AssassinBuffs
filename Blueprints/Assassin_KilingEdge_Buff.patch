@@ -1,0 +1,89 @@
+{
+  "Components": [
+    {
+      "PatchType": "Relocate",
+      "Target": "$AbilityLifecycleTriggerCaster$61156cba-53df-452d-b830-315a5fda4a88",
+      "InsertAfterTarget": null
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$MovedInCombatTrigger$de70c673-5af1-44c4-a4a5-7c2695caf029",
+      "InsertAfterTarget": "$AbilityLifecycleTriggerCaster$61156cba-53df-452d-b830-315a5fda4a88"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$WarhammerDodgeChanceModifierAttacker$3341e821-6bc2-461d-8767-34dd0f82e8de",
+      "InsertAfterTarget": "$MovedInCombatTrigger$de70c673-5af1-44c4-a4a5-7c2695caf029"
+    },
+    {
+      "PatchType": "Relocate",
+      "Target": "$WarhammerDamageModifierInitiator$fb1390fb-d174-4196-918f-16d30e8dc573",
+      "InsertAfterTarget": "$WarhammerDodgeChanceModifierAttacker$3341e821-6bc2-461d-8767-34dd0f82e8de"
+    },
+    {
+      "PatchType": "PatchElement",
+      "Target": "$WarhammerDamageModifierInitiator$fb1390fb-d174-4196-918f-16d30e8dc573",
+      "ElementPatch": {
+        "MinimumDamage": {
+          "Enabled": true
+        },
+        "MaximumDamage": {
+          "Enabled": true
+        },
+        "UnmodifiableFlatDamageModifier": {
+          "Enabled": false
+        }
+      }
+    },
+    {
+      "PatchType": "PatchElement",
+      "Target": "$PropertyCalculatorComponent$d28c3829-9052-4f00-8cf7-a35fc46ae00d",
+      "ElementPatch": {
+        "Value": {
+          "Getters": [
+            {
+              "PatchType": "PatchElement",
+              "Target": "$PropertyCalculatorGetter$bf1381e8d9075bbaafbd12330aa644f3",
+              "ElementPatch": {
+                "Value": {
+                  "TargetEvaluator": null,
+                  "Getters": [
+                    {
+                      "PatchType": "PatchElement",
+                      "Target": "$BlueprintPropertyGetter$7343c661-f040-43bf-81ec-8857c007e538",
+                      "ElementPatch": {
+                        "Settings": {
+                          "m_StepLevel": 10
+                        }
+                      }
+                    },
+                    {
+                      "PatchType": "PatchElement",
+                      "Target": "$PropertyCalculatorGetter$0db09efd-ae19-4f36-bd03-a90b46a1bde1",
+                      "ElementPatch": {
+                        "Value": {
+                          "TargetEvaluator": null,
+                          "Getters": [
+                            {
+                              "PatchType": "PatchElement",
+                              "Target": "$PropertyCalculatorGetter$6f986e0a-caf5-48e2-8478-dd1bbba536d0",
+                              "ElementPatch": {
+                                "Value": {
+                                  "TargetEvaluator": null
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
