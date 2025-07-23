@@ -1,21 +1,6 @@
 {
   "Components": [
     {
-      "PatchType": "Relocate",
-      "Target": "$PropertyCalculatorComponent$25e87d05-8e2e-4dd7-a1e0-cecd4e0e5c90",
-      "InsertAfterTarget": null
-    },
-    {
-      "PatchType": "Relocate",
-      "Target": "$TurnBasedModeEventsTrigger$6aab1520-5c20-478f-b1a5-aac3ceb18ac6",
-      "InsertAfterTarget": "$PropertyCalculatorComponent$25e87d05-8e2e-4dd7-a1e0-cecd4e0e5c90"
-    },
-    {
-      "PatchType": "Relocate",
-      "Target": "$AddFacts$bb1f8f0b-62aa-413a-bf8c-794e5f0cf179",
-      "InsertAfterTarget": "$TurnBasedModeEventsTrigger$6aab1520-5c20-478f-b1a5-aac3ceb18ac6"
-    },
-    {
       "PatchType": "Insert",
       "NewElement": {
         "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",

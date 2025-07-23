@@ -1,21 +1,6 @@
 {
   "Components": [
     {
-      "PatchType": "Relocate",
-      "Target": "$PropertyCalculatorComponent$2f86b56c-78bb-4e1b-bf99-9fedce30f1d0",
-      "InsertAfterTarget": null
-    },
-    {
-      "PatchType": "Relocate",
-      "Target": "$DisableBuffOutOfCasterTurn$f11242da-919d-445a-b9fb-4efd353defe6",
-      "InsertAfterTarget": "$PropertyCalculatorComponent$2f86b56c-78bb-4e1b-bf99-9fedce30f1d0"
-    },
-    {
-      "PatchType": "Relocate",
-      "Target": "$PropertyCalculatorComponent$37773db1-52d2-47ff-b183-2f1ba2a288f2",
-      "InsertAfterTarget": "$DisableBuffOutOfCasterTurn$f11242da-919d-445a-b9fb-4efd353defe6"
-    },
-    {
       "PatchType": "PatchElement",
       "Target": "$PropertyCalculatorComponent$37773db1-52d2-47ff-b183-2f1ba2a288f2",
       "ElementPatch": {
@@ -120,16 +105,6 @@
           ]
         }
       }
-    },
-    {
-      "PatchType": "Relocate",
-      "Target": "$PropertyCalculatorComponent$46a071b9-2ff2-4fc7-b66e-6abb754bf0a3",
-      "InsertAfterTarget": "$PropertyCalculatorComponent$37773db1-52d2-47ff-b183-2f1ba2a288f2"
-    },
-    {
-      "PatchType": "Relocate",
-      "Target": "$PropertyCalculatorComponent$ff3567f5-71ca-41d5-89ce-eb834c78741a",
-      "InsertAfterTarget": "$PropertyCalculatorComponent$46a071b9-2ff2-4fc7-b66e-6abb754bf0a3"
     },
     {
       "PatchType": "PatchElement",
@@ -240,6 +215,5 @@
       },
       "InsertAfterTarget": "$WarhammerBonusDamageFromSide$977d394f-e5a3-4e86-be28-80eb6e549ead"
     }
-  ],
-  "Author": "Unknown"
+  ]
 }

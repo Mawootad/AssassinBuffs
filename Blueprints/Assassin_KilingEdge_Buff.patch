@@ -1,26 +1,6 @@
 {
   "Components": [
     {
-      "PatchType": "Relocate",
-      "Target": "$AbilityLifecycleTriggerCaster$61156cba-53df-452d-b830-315a5fda4a88",
-      "InsertAfterTarget": null
-    },
-    {
-      "PatchType": "Relocate",
-      "Target": "$MovedInCombatTrigger$de70c673-5af1-44c4-a4a5-7c2695caf029",
-      "InsertAfterTarget": "$AbilityLifecycleTriggerCaster$61156cba-53df-452d-b830-315a5fda4a88"
-    },
-    {
-      "PatchType": "Relocate",
-      "Target": "$WarhammerDodgeChanceModifierAttacker$3341e821-6bc2-461d-8767-34dd0f82e8de",
-      "InsertAfterTarget": "$MovedInCombatTrigger$de70c673-5af1-44c4-a4a5-7c2695caf029"
-    },
-    {
-      "PatchType": "Relocate",
-      "Target": "$WarhammerDamageModifierInitiator$fb1390fb-d174-4196-918f-16d30e8dc573",
-      "InsertAfterTarget": "$WarhammerDodgeChanceModifierAttacker$3341e821-6bc2-461d-8767-34dd0f82e8de"
-    },
-    {
       "PatchType": "PatchElement",
       "Target": "$WarhammerDamageModifierInitiator$fb1390fb-d174-4196-918f-16d30e8dc573",
       "ElementPatch": {
