@@ -79,6 +79,207 @@
         }
       },
       "InsertAfterTarget": "$UIPropertiesComponent$51dad3d1-5ec2-4620-b68e-9f219722abb1"
+    },
+    {
+      "PatchType": "Insert",
+      "NewElement": {
+        "$type": "0cdbc172cfe945e3818c0d49fbd7d65f, TurnBasedModeEventsTrigger",
+        "name": "$TurnBasedModeEventsTrigger$9a7a57be-eb3e-468a-8109-37413191bbb8",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "TriggerIfNotInCombat": false,
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "CombatStartActions": {
+          "Actions": []
+        },
+        "CombatEndActions": {
+          "Actions": []
+        },
+        "RoundStartActions": {
+          "Actions": []
+        },
+        "RoundEndActions": {
+          "Actions": []
+        },
+        "AnyUnitTurns": false,
+        "OnlyEnemyTurns": false,
+        "ActionsOnTheTurnOwner": false,
+        "UnitTurnStartActions": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$07b71b5cd7e64f67af33a94f08768d65",
+              "m_Buff": "!bp_36df6bcd46a14f89b2f9ccd51489b803",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            },
+            {
+              "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+              "name": "$ContextActionApplyBuff$19cb027d9df143f5b14f2a589b727468",
+              "m_Buff": "!bp_36df6bcd46a14f89b2f9ccd51489b803",
+              "BuffEndCondition": "TurnEndOrCombatEnd",
+              "Permanent": true,
+              "DurationValue": {
+                "BonusValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                },
+                "RoundsValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              },
+              "ToCaster": false,
+              "AsChild": true,
+              "SameDuration": false,
+              "Ranks": {
+                "ValueType": "CasterNamedProperty",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "ActionsOnApply": {
+                "Actions": []
+              },
+              "ActionsOnImmune": {
+                "Actions": []
+              },
+              "AddFactSource": false
+            }
+          ]
+        },
+        "UnitTurnEndActions": {
+          "Actions": []
+        },
+        "UnitInterruptTurnStartActions": {
+          "Actions": [
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$e5e8d3d46210411c8740833de045b761",
+              "m_Buff": "!bp_36df6bcd46a14f89b2f9ccd51489b803",
+              "RemoveRank": false,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            },
+            {
+              "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+              "name": "$ContextActionApplyBuff$522705ee85304ec6a3497816f63b4e8d",
+              "m_Buff": "!bp_36df6bcd46a14f89b2f9ccd51489b803",
+              "BuffEndCondition": "TurnEndOrCombatEnd",
+              "Permanent": true,
+              "DurationValue": {
+                "BonusValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                },
+                "RoundsValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              },
+              "ToCaster": false,
+              "AsChild": true,
+              "SameDuration": false,
+              "Ranks": {
+                "ValueType": "CasterNamedProperty",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "ActionsOnApply": {
+                "Actions": []
+              },
+              "ActionsOnImmune": {
+                "Actions": []
+              },
+              "AddFactSource": false
+            }
+          ]
+        },
+        "UnitInterruptTurnEndActions": {
+          "Actions": []
+        },
+        "DoNotApplyOnInterrupts": false
+      },
+      "InsertAfterTarget": "$PropertyCalculatorComponent$25e87d05-8e2e-4dd7-a1e0-cecd4e0e5c90"
+    },
+    {
+      "PatchType": "Insert",
+      "NewElement": {
+        "$type": "c7894d09190e4f30b6455a035db59a28, OutOfCasterTurnFactActivator",
+        "name": "$OutOfCasterTurnFactActivator$6eb29642-6895-4599-9644-e9a6916d21d9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_FactBlueprint": "!bp_47bb28a0d8784cc5bd216e3b79418bad"
+      },
+      "InsertAfterTarget": "$TurnBasedModeEventsTrigger$9a7a57be-eb3e-468a-8109-37413191bbb8"
+    },
+    {
+      "PatchType": "RemoveFromEnd",
+      "Target": "$TurnBasedModeEventsTrigger$6aab1520-5c20-478f-b1a5-aac3ceb18ac6"
     }
   ],
   "m_Description": {
