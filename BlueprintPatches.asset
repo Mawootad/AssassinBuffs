@@ -13,8 +13,20 @@ MonoBehaviour:
   m_Name: BlueprintPatches
   m_EditorClassIdentifier: 
   Entries:
+  - Guid: 33214b7215b442519f4303bcd4a8ab34
+    Filename: Assassin_DeathWhisper_Ability
+    PatchType: 2
+  - Guid: 16de22d7b144415f8c80d8294bd6256c
+    Filename: Assassin_DeathWhisper_Ability_SecondHand
+    PatchType: 2
   - Guid: 4b221d4dcf6e43fcba714fbb7ef60ddf
     Filename: Assassin_DeathWhisper_BuffSupport
+    PatchType: 2
+  - Guid: 90e63dfceaa94a5a839067eefab571c2
+    Filename: Assassin_DeathWhisper_Feature
+    PatchType: 2
+  - Guid: a61be99f7d3147fabc2d3ffeeb6194f4
+    Filename: Assassin_Keystone_Buff
     PatchType: 2
   - Guid: f4b9effe437d4682a3287c5e662c7c3d
     Filename: Assassin_Keystone_BuffOpening
@@ -22,18 +34,12 @@ MonoBehaviour:
   - Guid: 74a1e39f3d0c4cab828d49d4acd54851
     Filename: Assassin_Keystone_Feature
     PatchType: 2
+  - Guid: c9dba0331212410dabe7dd2e19c52cd3
+    Filename: Assassin_KillingEdge_Ability
+    PatchType: 2
   - Guid: 85c7c8f66c0745c0be2a527f8fd86cc7
     Filename: Assassin_KilingEdge_Buff
     PatchType: 2
   - Guid: 7b90955673a54136be9c11743943fdfe
     Filename: AssassinCareerPath
-    PatchType: 2
-  - Guid: 33214b7215b442519f4303bcd4a8ab34
-    Filename: Assassin_DeathWhisper_Ability
-    PatchType: 2
-  - Guid: 16de22d7b144415f8c80d8294bd6256c
-    Filename: Assassin_DeathWhisper_Ability_SecondHand
-    PatchType: 2
-  - Guid: 90e63dfceaa94a5a839067eefab571c2
-    Filename: Assassin_DeathWhisper_Feature
     PatchType: 2

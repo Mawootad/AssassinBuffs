@@ -4,7 +4,7 @@
       "PatchType": "Insert",
       "NewElement": {
         "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
-        "name": "$PropertyCalculatorComponent$7bcbc47f-f865-4886-8d94-a40511551949",
+        "name": "$PropertyCalculatorComponent$acafaa29-af66-41af-a028-954d0ab85cd9",
         "m_Flags": 0,
         "PrototypeLink": {
           "guid": "",
@@ -21,7 +21,7 @@
           "Getters": [
             {
               "$type": "c10cf729af04472a900528c00b86b0fd, BlueprintPropertyGetter",
-              "name": "$BlueprintPropertyGetter$4218f266d1c0494eab98a64c14175897",
+              "name": "$BlueprintPropertyGetter$47b8deeb-50c2-4dc9-8089-75b58777b4af",
               "Settings": {
                 "Progression": "DoublePlusBonusValue",
                 "m_CustomProgression": [],
@@ -36,7 +36,7 @@
             },
             {
               "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-              "name": "$ContextValueGetter$22c34bcf5a0d4973bc43b7d1eb204804",
+              "name": "$ContextValueGetter$5b492117-e377-44ef-aaa6-a1d4462b4e51",
               "Settings": {
                 "Progression": "DivStep",
                 "m_CustomProgression": [],
@@ -60,13 +60,13 @@
           ]
         }
       },
-      "InsertAfterTarget": "$WarhammerBonusDamageFromSide$977d394f-e5a3-4e86-be28-80eb6e549ead"
+      "InsertAfterTarget": "$DisableBuffOutOfCasterTurn$567bfe75-fca1-4e3a-be05-aa75558fc76f"
     },
     {
       "PatchType": "Insert",
       "NewElement": {
         "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
-        "name": "$PropertyCalculatorComponent$16fd308c-e93e-4534-80c3-ed4ae971098e",
+        "name": "$PropertyCalculatorComponent$d640d9c1-c065-4fd6-9742-bcbf45fa1637",
         "m_Flags": 0,
         "PrototypeLink": {
           "guid": "",
@@ -83,7 +83,7 @@
           "Getters": [
             {
               "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-              "name": "$ContextValueGetter$b09b8f0612ea49f0b10b42a8862f7590",
+              "name": "$ContextValueGetter$5340f1f4-0b8f-4304-b4ac-be4cc8341d5c",
               "Settings": {
                 "Progression": "AsIs",
                 "m_CustomProgression": [],
@@ -106,7 +106,7 @@
             },
             {
               "$type": "2b7102ebfff042409c7f1493b16125a9, ConditionalGetter",
-              "name": "$ConditionalGetter$c2c054ea42bb4ce3b1aaa3d5e6f71955",
+              "name": "$ConditionalGetter$b0253d2b-baa8-48b7-90a2-f9b4cfdf66ca",
               "Settings": {
                 "Progression": "AsIs",
                 "m_CustomProgression": [],
@@ -125,7 +125,7 @@
                 "Getters": [
                   {
                     "$type": "af573f5008f24a98b3444959084f87f5, FactRankGetter",
-                    "name": "$FactRankGetter$3c9ac1f65f574073bf460354d15b21e0",
+                    "name": "$FactRankGetter$8853ab00-de9c-4905-b478-94a1022407fa",
                     "Settings": {
                       "Progression": "AsIs",
                       "m_CustomProgression": [],
@@ -143,7 +143,7 @@
                   },
                   {
                     "$type": "88a988badcc84ea8847e21626bee82e5, PropertyCalculatorGetter",
-                    "name": "$PropertyCalculatorGetter$527bbf7cd1c54846aeaf2eeb7b3a0635",
+                    "name": "$PropertyCalculatorGetter$89f428c1-2ee6-433e-8270-a16bc7e26844",
                     "Settings": {
                       "Progression": "AsIs",
                       "m_CustomProgression": [],
@@ -162,7 +162,7 @@
                       "Getters": [
                         {
                           "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-                          "name": "$ContextValueGetter$c56bfac6c553479991015ae5c84d0a68",
+                          "name": "$ContextValueGetter$1b7ea0a1-63ce-451b-a1c0-0e934939f588",
                           "Settings": {
                             "Progression": "RandomUpTo",
                             "m_CustomProgression": [],
@@ -185,7 +185,7 @@
                         },
                         {
                           "$type": "c10cf729af04472a900528c00b86b0fd, BlueprintPropertyGetter",
-                          "name": "$BlueprintPropertyGetter$d1bb51b72aff44ba82c9713f70cd9145",
+                          "name": "$BlueprintPropertyGetter$2172ad02-40d3-4b8d-922b-cc2433ab49cf",
                           "Settings": {
                             "Progression": "AsIs",
                             "m_CustomProgression": [],
@@ -211,7 +211,7 @@
                 "Getters": [
                   {
                     "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-                    "name": "$ContextValueGetter$53acd060601143549d83253b2a2544c2",
+                    "name": "$ContextValueGetter$90dd5e0e-24d3-4381-947a-380f468c52a9",
                     "Settings": {
                       "Progression": "AsIs",
                       "m_CustomProgression": [],
@@ -244,7 +244,7 @@
             },
             {
               "$type": "2b7102ebfff042409c7f1493b16125a9, ConditionalGetter",
-              "name": "$ConditionalGetter$098ba2cbc99245b387fb9f82a07afd61",
+              "name": "$ConditionalGetter$a600a825-5a53-4d8c-a206-95b726f93cb3",
               "Settings": {
                 "Progression": "AsIs",
                 "m_CustomProgression": [],
@@ -263,7 +263,7 @@
                 "Getters": [
                   {
                     "$type": "af573f5008f24a98b3444959084f87f5, FactRankGetter",
-                    "name": "$FactRankGetter$75cbeb1f454b40daa229111187b93a33",
+                    "name": "$FactRankGetter$0ae0bec5-250b-4e40-95d6-e349416e95f8",
                     "Settings": {
                       "Progression": "AsIs",
                       "m_CustomProgression": [],
@@ -281,7 +281,7 @@
                   },
                   {
                     "$type": "76fa6ff8c9162f9489df4de07a55750c, CheckAbilityAttackTypeGetter",
-                    "name": "$CheckAbilityAttackTypeGetter$8bb1c1a3b2604135ba47ae679f41ead7",
+                    "name": "$CheckAbilityAttackTypeGetter$b471828f-3a51-43f3-a6a1-953ee742ca2b",
                     "Settings": {
                       "Progression": "AsIs",
                       "m_CustomProgression": [],
@@ -304,7 +304,7 @@
                 "Getters": [
                   {
                     "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-                    "name": "$ContextValueGetter$a96e743c51854b8ebd69e3bd145ec8ce",
+                    "name": "$ContextValueGetter$a7bfd05c-58ae-4a3f-915a-b5feda9449ce",
                     "Settings": {
                       "Progression": "AsIs",
                       "m_CustomProgression": [],
@@ -337,7 +337,7 @@
             },
             {
               "$type": "2b7102ebfff042409c7f1493b16125a9, ConditionalGetter",
-              "name": "$ConditionalGetter$9c354c5e470547569757386d11dd1113",
+              "name": "$ConditionalGetter$b8485695-661d-4211-9870-535f52393e60",
               "Settings": {
                 "Progression": "AsIs",
                 "m_CustomProgression": [],
@@ -356,7 +356,7 @@
                 "Getters": [
                   {
                     "$type": "af573f5008f24a98b3444959084f87f5, FactRankGetter",
-                    "name": "$FactRankGetter$75cbeb1f454b40daa229111187b93a33",
+                    "name": "$FactRankGetter$2047a3c1-78bf-4824-bdb6-5fed17d3397a",
                     "Settings": {
                       "Progression": "AsIs",
                       "m_CustomProgression": [],
@@ -374,7 +374,7 @@
                   },
                   {
                     "$type": "88a988badcc84ea8847e21626bee82e5, PropertyCalculatorGetter",
-                    "name": "$PropertyCalculatorGetter$594e4e26ec954680892bc2f239683384",
+                    "name": "$PropertyCalculatorGetter$d9d277a0-d969-4e40-95d7-239035b7d6ec",
                     "Settings": {
                       "Progression": "AsIs",
                       "m_CustomProgression": [],
@@ -393,7 +393,7 @@
                       "Getters": [
                         {
                           "$type": "622b2e3118c34edebe1597cf4c03339e, CheckAbilityBlueprintGetter",
-                          "name": "$CheckAbilityBlueprintGetter$719e7ba8b3eb43829db7dcb56656f4a7",
+                          "name": "$CheckAbilityBlueprintGetter$89dace8b-f5e8-4bfb-9f42-b1871bc94c46",
                           "Settings": {
                             "Progression": "AsIs",
                             "m_CustomProgression": [],
@@ -412,7 +412,7 @@
                         },
                         {
                           "$type": "af573f5008f24a98b3444959084f87f5, FactRankGetter",
-                          "name": "$FactRankGetter$95528547482048f28f16e4a8b8f29289",
+                          "name": "$FactRankGetter$63dd2c6b-f648-4458-9e7b-7269501ce232",
                           "Settings": {
                             "Progression": "AsIs",
                             "m_CustomProgression": [],
@@ -441,7 +441,7 @@
                 "Getters": [
                   {
                     "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-                    "name": "$ContextValueGetter$a96e743c51854b8ebd69e3bd145ec8ce",
+                    "name": "$ContextValueGetter$2447dda2-8f02-471b-be1a-ac370a6614d9",
                     "Settings": {
                       "Progression": "AsIs",
                       "m_CustomProgression": [],
@@ -475,13 +475,13 @@
           ]
         }
       },
-      "InsertAfterTarget": "$DisableBuffOutOfCasterTurn$f11242da-919d-445a-b9fb-4efd353defe6"
+      "InsertAfterTarget": "$PropertyCalculatorComponent$acafaa29-af66-41af-a028-954d0ab85cd9"
     },
     {
       "PatchType": "Insert",
       "NewElement": {
         "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
-        "name": "$PropertyCalculatorComponent$92a5fa8c-1505-4af4-9d28-53e18a555b30",
+        "name": "$PropertyCalculatorComponent$7f881800-1a48-4d36-ae66-6362ee31468f",
         "m_Flags": 0,
         "PrototypeLink": {
           "guid": "",
@@ -498,7 +498,7 @@
           "Getters": [
             {
               "$type": "9cb6f49c104fb044db79e499b6fcd002, HPGetter",
-              "name": "$HPGetter$5823412272e24518bd319f785ff5ae08",
+              "name": "$HPGetter$d1a3cc97-1a9f-4a82-997c-13b154d9fdd0",
               "Settings": {
                 "Progression": "AsIs",
                 "m_CustomProgression": [],
@@ -515,7 +515,7 @@
             },
             {
               "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-              "name": "$ContextValueGetter$facf5113f47a4041a6d45619ba049cd1",
+              "name": "$ContextValueGetter$5b14961c-a3a9-41ee-8347-5185d59e8592",
               "Settings": {
                 "Progression": "AsIs",
                 "m_CustomProgression": [],
@@ -539,19 +539,19 @@
           ]
         }
       },
-      "InsertAfterTarget": "$PropertyCalculatorComponent$16fd308c-e93e-4534-80c3-ed4ae971098e"
+      "InsertAfterTarget": "$PropertyCalculatorComponent$d640d9c1-c065-4fd6-9742-bcbf45fa1637"
     },
     {
       "PatchType": "RemoveFromEnd",
-      "Target": "$PropertyCalculatorComponent$2f86b56c-78bb-4e1b-bf99-9fedce30f1d0"
+      "Target": "$PropertyCalculatorComponent$38a49a7e-d7e3-4c92-a415-746ae9512bfc"
     },
     {
       "PatchType": "RemoveFromEnd",
-      "Target": "$PropertyCalculatorComponent$37773db1-52d2-47ff-b183-2f1ba2a288f2"
+      "Target": "$PropertyCalculatorComponent$1442c9f1-9f2a-4ac0-aa95-0c6126de2a9a"
     },
     {
       "PatchType": "RemoveFromEnd",
-      "Target": "$PropertyCalculatorComponent$46a071b9-2ff2-4fc7-b66e-6abb754bf0a3"
+      "Target": "$PropertyCalculatorComponent$8495647c-bd1c-456b-a2c6-d329f449ef96"
     },
     {
       "PatchType": "RemoveFromEnd",

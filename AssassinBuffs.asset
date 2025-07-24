@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Manifest:
     UniqueName: AssassinBuffs
-    Version: 0.1.0
+    Version: 1.0.0
     DisplayName: 
     Description: 
     Author: Mawootad

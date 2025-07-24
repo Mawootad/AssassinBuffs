@@ -1,0 +1,47 @@
+{
+  "Components": [
+    {
+      "PatchType": "PatchElement",
+      "Target": "$PropertyCalculatorComponent$44e0e436-6495-49c5-996a-5ba3caf74844",
+      "ElementPatch": {
+        "Value": {
+          "Getters": [
+            {
+              "PatchType": "PatchElement",
+              "Target": "$ContextValueGetter$24297a59-08d4-4c02-b382-a68ea9ca5a9d",
+              "ElementPatch": {
+                "Settings": {
+                  "m_StepLevel": 10
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "PatchType": "PatchElement",
+      "Target": "$UIPropertiesComponent$d04e4f19-f147-4661-9cd4-bb571b87f8b2",
+      "ElementPatch": {
+        "Properties": [
+          {
+            "PatchType": "PatchElement",
+            "Target": "Value1",
+            "ElementPatch": {
+              "Description": {
+                "m_Key": "",
+                "m_OwnerString": "",
+                "m_OwnerPropertyPath": "",
+                "m_JsonPath": "",
+                "Shared": {
+                  "assetguid": "4992b5316e69db04c9811f702871961b",
+                  "stringkey": "e0d16aa3-4835-4203-811d-18e0abfb8b0f"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
