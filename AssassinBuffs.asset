@@ -15,11 +15,11 @@ MonoBehaviour:
   Manifest:
     UniqueName: AssassinBuffs
     Version: 0.9.0
-    DisplayName: 
-    Description: 
+    DisplayName: Assassin Buffs
+    Description: Small buffs to the assassin to improve their late-game scaling
     Author: Mawootad
     Repository: https://github.com/Mawootad/AssassinBuffs
-    HomePage: 
+    HomePage: https://www.nexusmods.com/warhammer40kroguetrader/mods/294
     Dependencies: []
   Settings:
     RelativeThumbnailPath: 
