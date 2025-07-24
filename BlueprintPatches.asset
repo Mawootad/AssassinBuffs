@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80fe07f61edc4914ac44891e22e1fdf7, type: 3}
-  m_Name: NewBlueprintPatches
+  m_Name: BlueprintPatches
   m_EditorClassIdentifier: 
   Entries:
   - Guid: 4b221d4dcf6e43fcba714fbb7ef60ddf
