@@ -22,11 +22,14 @@
               "Shared": null
             },
             "Description": {
-              "m_Key": "0eaafad3-0986-4fe2-aa70-7d68c5994816",
-              "m_OwnerString": "b9ba61dc378e4f4290aed9a95c6022e6#$UIPropertiesComponent$51dad3d1-5ec2-4620-b68e-9f219722abb1",
-              "m_OwnerPropertyPath": "Properties.Array.data[0].Description",
-              "m_JsonPath": "Strings/Mechanics/Blueprints\\Classes\\Assassin\\AssassinAbilities\\Assassin_Keystone_Feature1_Properties.Array.data[0].Description.json",
-              "Shared": null
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": {
+                "assetguid": "9144f8cd6e21f374eb6e3d478b493fd2",
+                "stringkey": "c97efbaf-f732-414e-8334-edb83499b3bd"
+              }
             },
             "m_DescriptionFact": "!bp_74a1e39f3d0c4cab828d49d4acd54851",
             "m_LinkProperty": true,
@@ -80,8 +83,8 @@
   ],
   "m_Description": {
     "Shared": {
-      "assetguid": "c836d548a354f1749ba21a7d6c29b24c",
-      "stringkey": "b2c0c840-d30c-4812-adc4-5f6942e73abc"
+      "assetguid": "acf2055098315494da7629b43b9f1deb",
+      "stringkey": "e3fa5a60-805c-4de6-a41a-34c1526c1e7f"
     }
   }
 }

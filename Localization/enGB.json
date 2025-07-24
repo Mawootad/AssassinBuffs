@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "e3fa5a60-805c-4de6-a41a-34c1526c1e7f": {
+      "Offset": 0,
+      "Text": "The {g|Encyclopedia:CareerAssassinGlossary}Assassin{/g} sees a single {g|Encyclopedia:Opening}opening{/g} for each enemy on one of the enemy's sides.\n<i>Opening</i>: whenever the Assassin hits an opening (excluding {g|Encyclopedia:OverpenetrationFullGlossary}overpenetration{/g}), they deal an additional +<u>10% of target's {g|Encyclopedia:MaxWounds}maximum wounds{/g}</u> damage (max <u>{uip|damagecap|74a1e39f3d0c4cab828d49d4acd54851}</u>).\nAfter an attack, the opening is moved to the opposite side of the enemy. Each enemy's openings that were not hit by the Assassin during the Assassin's turn are moved to a random side of that enemy at the start of the Assassin's next turn."
+    },
+    "c97efbaf-f732-414e-8334-edb83499b3bd": {
+      "Offset": 0,
+      "Text": "<u>(200 + 2 x {g|Encyclopedia:Lethality}lethality{/g})</u>"
+    },
+    "e0d16aa3-4835-4203-811d-18e0abfb8b0f": {
+      "Offset": 0,
+      "Text": "<u>({g|Encyclopedia:Lethality}lethality{/g} / 10)</u>"
+    },
+    "488c0baa-33ca-4395-8bcc-ddcdc1d4fc7e": {
+      "Offset": 0,
+      "Text": "The Assassin makes an attack that does not count toward the limit of {g|Encyclopedia:AttacksPerTurn}attacks per turn{/g}, but deals only 25% of the Assassin's usual damage. If the attack is successful, the target suffers the haemorrhage effect.\n<i>Haemorrhage</i>: at the beginning of each of the target's turns they will suffer {uip|Lethality|33214b7215b442519f4303bcd4a8ab34} {g|Encyclopedia:RendingDamage}rending damage{/g} that ignores armour and deflection."
+    },
+    "3565794d-6d35-4129-a7da-e0dbac613589": {
+      "Offset": 0,
+      "Text": "The {g|Encyclopedia:CareerAssassinGlossary}Assassin{/g} can move after attacking."
+    },
+    "c277aa5a-ad9e-4439-bf19-a225362de711": {
+      "Offset": 0,
+      "Text": "Make an Escape."
+    }
+  }
+}

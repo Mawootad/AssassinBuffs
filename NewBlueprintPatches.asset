@@ -12,4 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fe07f61edc4914ac44891e22e1fdf7, type: 3}
   m_Name: NewBlueprintPatches
   m_EditorClassIdentifier: 
-  Entries: []
+  Entries:
+  - Guid: 4b221d4dcf6e43fcba714fbb7ef60ddf
+    Filename: Assassin_DeathWhisper_BuffSupport
+    PatchType: 2
+  - Guid: f4b9effe437d4682a3287c5e662c7c3d
+    Filename: Assassin_Keystone_BuffOpening
+    PatchType: 2
+  - Guid: 74a1e39f3d0c4cab828d49d4acd54851
+    Filename: Assassin_Keystone_Feature
+    PatchType: 2
+  - Guid: 85c7c8f66c0745c0be2a527f8fd86cc7
+    Filename: Assassin_KilingEdge_Buff
+    PatchType: 2
+  - Guid: 7b90955673a54136be9c11743943fdfe
+    Filename: AssassinCareerPath
+    PatchType: 2
+  - Guid: 33214b7215b442519f4303bcd4a8ab34
+    Filename: Assassin_DeathWhisper_Ability
+    PatchType: 2
+  - Guid: 16de22d7b144415f8c80d8294bd6256c
+    Filename: Assassin_DeathWhisper_Ability_SecondHand
+    PatchType: 2
+  - Guid: 90e63dfceaa94a5a839067eefab571c2
+    Filename: Assassin_DeathWhisper_Feature
+    PatchType: 2
