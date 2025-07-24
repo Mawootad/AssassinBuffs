@@ -33,7 +33,7 @@
             },
             "m_DescriptionFact": "!bp_74a1e39f3d0c4cab828d49d4acd54851",
             "m_LinkProperty": true,
-            "m_PropertyName": "Value1",
+            "m_PropertyName": "Value2",
             "m_PropertySource": "!bp_74a1e39f3d0c4cab828d49d4acd54851",
             "m_LinkKey": "damagecap"
           }
@@ -52,7 +52,7 @@
           "name": ""
         },
         "m_Overrides": [],
-        "Name": "Value1",
+        "Name": "Value2",
         "SaveToContext": "No",
         "Value": {
           "Operation": "Sum",
