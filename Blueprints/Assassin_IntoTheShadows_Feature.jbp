@@ -105,7 +105,7 @@
     "FeatureTypes": [],
     "TalentIconInfo": {
       "AllGroups": "MP",
-      "MainGroup": 0
+      "MainGroup": "MP"
     },
     "m_Acronym": {
       "m_Key": "",
